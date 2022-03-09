@@ -1,0 +1,25 @@
+{
+  "name": "blocking-event-loop-samples-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bad_queue_consumer.js",
+    "testServer": "npx autocannon --renderStatusCodes -c10000 http://localhost:3001 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quixote15/blocking-event-loop-samples-nodejs.git"
+  },
+  "keywords": [],
+  "author": "Tiago santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quixote15/blocking-event-loop-samples-nodejs/issues"
+  },
+  "homepage": "https://github.com/quixote15/blocking-event-loop-samples-nodejs#readme",
+  "devDependencies": {
+    "autocannon": "^7.7.0"
+  }
+}
