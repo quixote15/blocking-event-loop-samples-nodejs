@@ -16,4 +16,4 @@
 
 2. The result is you dont block the main event loop with consumer processing:
 
-![background consumer server running](https://github.com/quixote15/blocking-event-loop-samples-nodejs/blob/main/assets/good-consumer-timeouts.png)
+![background consumer server running](https://github.com/quixote15/blocking-event-loop-samples-nodejs/blob/main/assets/good-consumer.png)
