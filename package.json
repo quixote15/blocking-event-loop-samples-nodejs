@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/bad_queue_consumer.js",
+    "start:bad-consumer": "node src/bad_queue_consumer.js",
+    "start:good-consumer": "node src/good_queue_consumer.js",
     "testServer": "npx autocannon --renderStatusCodes -c10000 http://localhost:3001 "
   },
   "repository": {
